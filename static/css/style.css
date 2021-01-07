@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links-section {
+    position: fixed;
+    top: 50%;
+}
+
+a {
+    color: #000;
+}
