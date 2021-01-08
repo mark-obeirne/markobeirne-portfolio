@@ -101,6 +101,6 @@ body {
     left: 0;
     width: 100%;
     background: #e28e40;
-    transform: skew(-87deg);
+    transform: skew(87deg);
     transform-origin:bottom;
 }
