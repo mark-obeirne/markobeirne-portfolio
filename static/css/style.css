@@ -9,7 +9,7 @@ a {
 }
 
 body {
-
+    
 }
 
 /* Borders */
@@ -43,4 +43,37 @@ body {
 
 .demo-border {
     border: 2px solid red;
+}
+
+/* Projects */
+
+.projects-section {
+    background-color: #f2f2f2;
+}
+
+.project-card {
+    background-color: #fff;
+}
+
+
+/* Styled Slanted Divs */
+.slanted-grey-container {
+    position: relative;
+}
+
+.slanted-grey {
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.slanted-grey:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        transform: skew(87deg);
+        transform-origin:bottom;
 }
