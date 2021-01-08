@@ -60,9 +60,14 @@ body {
     background-color: #9FCAF9;
 }
 
+/* Contact */
+.contact-section {
+    background-color: #e28e40;
+}
 
 /* Styled Slanted Divs */
-.slanted-grey-container {
+.slanted-grey-container,
+.slanted-blue-container {
     position: relative;
 }
 
@@ -72,13 +77,30 @@ body {
 }
 
 .slanted-grey:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: #9FCAF9;
-        transform: skew(87deg);
-        transform-origin:bottom;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #9FCAF9;
+    transform: skew(87deg);
+    transform-origin:bottom;
+}
+
+.slanted-blue {
+    height: 100px;
+    background-color: #9FCAF9;
+}
+
+.slanted-blue:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #e28e40;
+    transform: skew(-87deg);
+    transform-origin:bottom;
 }
