@@ -12,6 +12,10 @@ body {
     padding-top: 56px;
 }
 
+.small-caps {
+    font-variant: small-caps;
+}
+
 /* Borders */
 .grey-border {
     border: 1px solid #555555;
