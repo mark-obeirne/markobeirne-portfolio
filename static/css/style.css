@@ -57,7 +57,20 @@ body {
 
 /* Contact */
 .contact-section {
-    background-color: #e28e40;
+    background-color: #e4a163;
+}
+
+.btn-container {
+    width: 50%;
+}
+
+form label {
+    position: relative;
+    left: 1rem;
+}
+
+.submit-btn {
+    width: 100%;
 }
 
 /* Styled Slanted Divs */
@@ -95,7 +108,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #e28e40;
+    background: #e4a163;
     transform: skew(87deg);
     transform-origin:bottom;
 }
