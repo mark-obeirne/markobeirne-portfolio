@@ -17,23 +17,17 @@ body {
     border: 1px solid #555555;
 }
 
+.light-top-border {
+    border-top: 1px solid #d3d3d3;
+}
+
 
 /* Side Links */
 .links-section {
     position: fixed;
     top: 50%;
-}
-
-.github {
-    background-color: orange;
-}
-
-.linkedin {
-    background-color: orangered;
-}
-
-.contact {
-    background-color: palegreen;
+    font-size: 1rem;
+    background-color: #fff;
 }
 
 /* Top Section */
@@ -43,10 +37,6 @@ body {
     height: 25%;
     background-color: white;
     background-blend-mode:luminosity;
-}
-
-.demo-border {
-    border: 2px solid red;
 }
 
 /* Projects */
@@ -108,4 +98,12 @@ body {
     background: #e28e40;
     transform: skew(87deg);
     transform-origin:bottom;
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    .links-section {
+        font-size: 1.5rem;
+    }
 }
