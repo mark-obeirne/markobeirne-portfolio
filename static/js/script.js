@@ -10,8 +10,7 @@ function toggleMobileNav() {
     const navBarTogglerBtn = document.querySelector(".navbar-toggler");
     navBarTogglerBtn.classList.add("collapsed");
     navBarTogglerBtn.setAttribute("aria-expanded", "false")
-    navBarTogglerBtn.classList.add("collapsed");
-    
+
     const navbarCollapse = document.querySelector("#navbarToggler")
     navbarCollapse.classList.remove("show");
 }
