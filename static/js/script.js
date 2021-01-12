@@ -18,12 +18,20 @@ function toggleMobileNav() {
 function sendEmail() {
     const contactForm = document.querySelector("#contact-form")
     contactForm.addEventListener("submit", function(e) {
+        const submitBtn = document.querySelector(".submit-btn")
         e.preventDefault();
+        submitBtn.disabled = true;
         emailjs.sendForm("yahoo", "portfolio_contact_form", this)
             .then(function() {
                 console.log('SUCCESS!');
+                const formFields = document.querySelectorAll("input")
+                const messageField = document.querySelector("#message-input")
+                messageField.value = ""
+                formFields.forEach(field => field.value = "")
+                submitBtn.disabled = false;
             }, function(error) {
                 console.log('FAILED...', error);
+                submitBtn.disabled = false;
             });
     })    
 }
