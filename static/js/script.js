@@ -15,4 +15,18 @@ function toggleMobileNav() {
     navbarCollapse.classList.remove("show");
 }
 
+function sendEmail() {
+    const contactForm = document.querySelector("#contact-form")
+    contactForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+        emailjs.sendForm("yahoo", "portfolio_contact_form", this)
+            .then(function() {
+                console.log('SUCCESS!');
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
+    })    
+}
+
 navOptions.forEach(item => item.addEventListener("click", setActiveNav))
+window.addEventListener("load", sendEmail)
