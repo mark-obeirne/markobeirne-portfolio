@@ -129,6 +129,10 @@ form label {
     transform-origin:bottom;
 }
 
+/* Mail Modal */
+.modal {
+    top: 25%;
+}
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
