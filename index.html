@@ -213,12 +213,26 @@
                                     <textarea class="form-control shadow" id="message-input" rows="5" name="message" required></textarea>
                                 </div>
                                 <div class="mx-auto btn-container">
-                                    <button type="submit" class="btn btn-primary shadow submit-btn"><i class="fas fa-paper-plane"></i> Submit</button>
+                                    <button type="submit" class="btn btn-primary shadow submit-btn" data-bs-toggle="modal" data-bs-target="#mailModal"><i class="fas fa-paper-plane"></i> Submit</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade" id="mailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="mailModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="mailModalLabel">Sending Email</h5>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </section>
         </div>
 
