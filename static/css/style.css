@@ -41,7 +41,7 @@ html {
 .links-section {
     position: fixed;
     top: 50%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: #fff;
 }
 
@@ -63,6 +63,21 @@ html {
 
 .project-card {
     background-color: #fff;
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-links a:last-child {
+    margin-top: 1rem;
+}
+
+.project-links a {
+    flex-grow: 1;
+    max-width: 15rem;
 }
 
 /* Resume */
@@ -174,9 +189,15 @@ form label {
   }
 
 /* Media Queries */
+@media screen and (min-width: 363px) {
+    .project-links a:last-child {
+        margin-top: 0;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .links-section {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 }
 
