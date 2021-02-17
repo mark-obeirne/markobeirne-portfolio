@@ -84,6 +84,10 @@ html {
 .resume-section {
     background-color: #0d6efd;
     color: #fff;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Contact */
