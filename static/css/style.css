@@ -61,6 +61,10 @@ html {
     background-color: #f2f2f2;
 }
 
+.project-column {
+    display: flex;
+}
+
 .project-card {
     background-color: #fff;
 }
