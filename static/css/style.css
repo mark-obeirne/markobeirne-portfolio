@@ -45,6 +45,10 @@ html {
     background-color: #fff;
 }
 
+.links-section a {
+    transition: all 0.5s;
+}
+
 /* Top Section */
 .intro-section {
     background: url(../images/digitization_1920.jpg);
